@@ -19,7 +19,6 @@ public class EntryActivity extends Activity implements View.OnClickListener {
         button.setOnClickListener(this);
     }
 
-
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.buttonOK){
